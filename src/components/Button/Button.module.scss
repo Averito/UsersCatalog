@@ -1,0 +1,12 @@
+.button {
+  padding: 13px 12px;
+  background: #512689;
+  border-radius: 8px;
+  color: white;
+  font-size: var(--normal-text-font-size);
+  transition: filter 0.3s ease;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+}

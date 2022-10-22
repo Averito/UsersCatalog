@@ -1,0 +1,20 @@
+.auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.authWindow {
+  width: min(100%, 500px);
+  background: #FFFFFF;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.authWindowTitle {
+  font-size: var(--big-text-font-size);
+  margin-bottom: 16px;
+}
